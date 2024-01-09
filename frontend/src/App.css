@@ -3,12 +3,13 @@
   display: flex;
   flex-direction: column;
   /* Make the wrapper take up the available space */
-}
-.wrapper {
-  flex: 1;
-  background-color: white;
-  margin-top: 12px;
-  padding:  5vh 12vw;
+    /* background-image: url("./images/Circles.svg");
+      background-size: cover; */
+      /* Make image cover the entire area */
+      /* background-position: center; */
+      /* Center the image */
+      /* background-repeat: no-repeat; */
+      /* Prevent image repetition */
 }
 /* .App {
   text-align: center;

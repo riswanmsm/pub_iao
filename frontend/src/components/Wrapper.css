@@ -1,0 +1,17 @@
+.wrapper {
+    display: flex;
+    flex: 1;
+    background-color: white;
+    margin-top: 12px;
+}
+.wrapper-left {
+    padding: 5vh 12vw;
+    max-width: 40vw;
+}
+.wrapper-right {
+    margin-left: auto;
+}
+.wrapper-right-img {
+    width: 100%;
+    height: 100%;
+}
