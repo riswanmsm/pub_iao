@@ -1,0 +1,40 @@
+.about {
+    display: flex;
+    align-items: flex-start;
+    /* Vertically center the content */
+    height: 60vh;
+    /* Adjust as needed */
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-content-title {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-content-separator {
+    width: 250px;
+    /* Adjust the width of each line */
+    border: none;
+    height: 4px;
+    /* Adjust the height of each line */
+    background-color: #009E92;
+    margin: unset;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+.about-content-text {
+    padding-top: 10px;
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 20px;
+}

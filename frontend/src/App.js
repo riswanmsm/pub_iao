@@ -1,32 +1,40 @@
 // App.js
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // If using React Router
-import Navbar from "./components/Navbar";
-import Wrapper from "./components/Wrapper";
-import Footer from "./components/Footer";
 import "./App.css"; // Import your global CSS file
-
-const Home = () => {
-  return <h1>Home Page</h1>; // Your Home component
-};
-
-const About = () => {
-  return <h1>About Us Page</h1>; // Your About component
-};
+import Wrapper from "./components/Wrapper";
+import HomePage from "./components/HomePage";
+import AboutusPage from "./components/AboutusPage";
+import TimetothinkPage from "./components/TimetothinkPage";
 
 const App = () => {
   return (
     <Router>
-      <div className="app">
-        <Navbar />
-        <Wrapper />
-        <Footer />
-      </div>
-
       <Routes>
-        <Route path="/" exact component={Home} />
-        <Route path="/about" component={About} />
-        {/* Add more routes as needed */}
+        <Route
+          path="/"
+          element={
+            <Wrapper>
+              <HomePage />
+            </Wrapper>
+          }
+        />
+        <Route
+          path="/about"
+          element={
+            <Wrapper>
+              <AboutusPage />
+            </Wrapper>
+          }
+        />
+        <Route
+          path="/time-to-think"
+          element={
+            <Wrapper>
+              <TimetothinkPage />
+            </Wrapper>
+          }
+        />
       </Routes>
     </Router>
   );

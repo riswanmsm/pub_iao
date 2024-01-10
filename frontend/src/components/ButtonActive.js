@@ -1,7 +1,11 @@
 import "./ButtonActive.css";
 
-const ButtonActive = () => {
-  return <div className="btn-active">Time to think</div>;
+const ButtonActive = ({ onClick, children }) => {
+  return (
+    <div className="btn-active" onClick={onClick}>
+      {children}
+    </div>
+  );
 };
 
 export default ButtonActive;

@@ -1,0 +1,49 @@
+.ttt {
+    display: flex;
+    align-items: flex-end;
+    /* Vertically center the content */
+    height: 60vh;
+    /* Adjust as needed */
+}
+
+.ttt-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.ttt-content-title {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.ttt-content-separator {
+    width: 355px;
+    /* Adjust the width of each line */
+    border: none;
+    height: 4px;
+    /* Adjust the height of each line */
+    background-color: #009E92;
+    margin: unset;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+.ttt-content-text {
+    padding-top: 10px;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.ttt-btn {
+    margin-top: 50px;
+}
+
+.ttt-btn-separator {
+    margin: 15px;
+    display: inline;
+}
