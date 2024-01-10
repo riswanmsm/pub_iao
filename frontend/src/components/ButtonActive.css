@@ -1,0 +1,11 @@
+.btn-active {
+    display: inline-flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #422C88;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}

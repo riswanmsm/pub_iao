@@ -1,0 +1,12 @@
+.btn-inactive {
+    display: inline-flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #422C88;
+    /* background-color: #422C88; */
+    color: #422C88;
+    font-weight: 700;
+    cursor: pointer;
+}

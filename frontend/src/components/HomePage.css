@@ -1,0 +1,41 @@
+.home {
+    display: flex;
+    align-items: center;
+        /* Vertically center the content */
+    height: 60vh;
+        /* Adjust as needed */
+    } 
+.home-content {
+    display: flex;
+    flex-direction: column;
+}
+.home-content-title {
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.home-content-separator {
+    width: 565px;
+        /* Adjust the width of each line */
+    border: none;
+    height: 4px;
+        /* Adjust the height of each line */
+    background-color: #009E92;
+    margin: unset;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+.home-content-text {
+    padding-top: 10px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+.home-btn-separator {
+    margin: 15px;
+    display: inline;
+}
